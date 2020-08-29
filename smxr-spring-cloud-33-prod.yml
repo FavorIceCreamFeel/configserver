@@ -1,0 +1,15 @@
+server:
+  port: 8092
+#  port: 8091
+spring:
+  application:
+    name: smxr-spring-cloud-33
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        enabled: true
+        register: true
+        ip-address: 127.0.0.1
+        prefer-ip-address: true
