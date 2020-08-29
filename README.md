@@ -1,1 +1,2 @@
 # configserver
+学习SpringCloud中的config组件for建立的仓库，用来管理项目中的配置。
