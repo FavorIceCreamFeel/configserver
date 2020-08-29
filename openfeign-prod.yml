@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: openfeign
+  cloud:
+    consul:
+      discovery:
+        enabled: true
+        register: true
+        ip-address: 127.0.0.1
+        prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
